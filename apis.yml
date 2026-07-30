@@ -1,8 +1,15 @@
 aid: mercanto
 name: Mercanto
-description: 'Mercanto is a company surfaced as a portfolio company of bain-capital-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Mercanto (mercanto.mx) is a Mexican B2B wholesale marketplace that supplies
+  restaurants, cafeterias, and food-service businesses with ingredients, groceries,
+  cleaning supplies, and packaging bought at wholesale from vetted suppliers, with
+  negotiated pricing and next-day delivery. Buyers order across categories including
+  produce, groceries and pantry, dairy and eggs, proteins and cold cuts, bakery and
+  desserts, beverages, frozen foods, and non-food items, while Mercanto handles supplier
+  selection, negotiation, and fulfillment. The company is backed by Bain Capital Ventures.
+  Its customer-facing storefront runs on a private backend (api.mercanto.mx) that is
+  not publicly documented for third-party developers, so there is no public API product,
+  developer portal, or SDK surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/mercanto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,32 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mercanto.mx/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Commerce
+- Marketplace
+- Wholesale
+- Food and Beverage
+- Restaurants
+- B2B
+- Supply Chain
+- Grocery
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://mercanto.mx/
+- type: SignUp
+  url: https://forms.gle/HBkJEAG1ZQjpHyM99
+- type: TermsOfService
+  url: https://mercanto.mx/terminos-y-condiciones
+- type: PrivacyPolicy
+  url: https://mercanto.mx/politicas-de-privacidad
+- type: Support
+  url: https://api.whatsapp.com/send/?phone=525561469874
+- type: WellKnown
+  url: well-known/mercanto-well-known.yml
+- type: SecurityTxt
+  url: well-known/mercanto-security.txt
+- type: Security
+  url: security/mercanto-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/mercanto-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/mercanto-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

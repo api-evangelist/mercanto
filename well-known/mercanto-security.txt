@@ -1,0 +1,4 @@
+Contact: mailto:tech@mercanto.mx
+Expires: 2027-01-20T18:06:20.187Z
+Preferred-Languages: es, en
+Canonical: https://mercanto.mx/.well-known/security.txt

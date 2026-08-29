@@ -11,6 +11,9 @@ description: 'Mercanto (mercanto.mx) is a Mexican B2B wholesale marketplace that
   not publicly documented for third-party developers, so there is no public API product,
   developer portal, or SDK surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/mercanto/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Its customer-facing storefront runs on a private backend (api.mercanto.mx) that is not publicly documented for third-party developers, so there is no public API product, developer portal, or SDK surfa"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
